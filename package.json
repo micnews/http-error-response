@@ -1,7 +1,7 @@
 {
   "name": "http-error-response",
   "description": "standard http error handler that follows sane conventions",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "repository": "micnews/http-error-response",
   "license": "MIT"
 }
