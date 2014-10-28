@@ -7,7 +7,7 @@ module.exports = function respond(req, res, err){
   var msg;
   
   if (process.env.NODE_ENV == 'production') {
-    msg = http.STATUS_CODES[status]
+    msg = http.STATUS_CODES[status];
   } else {
     msg = err.stack;
     if (/(ht|x)ml/.test(req.headers.Accept)) {
